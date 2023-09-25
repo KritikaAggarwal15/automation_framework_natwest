@@ -231,6 +231,7 @@
                         <env>dev.properties</env>
                     </systemPropertyVariables>
                     <suiteXmlFiles>
+
                         <suiteXmlFile>BDD.xml</suiteXmlFile>
                     </suiteXmlFiles>
                 </configuration>

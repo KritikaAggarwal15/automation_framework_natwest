@@ -14,3 +14,4 @@ Feature: Validation of deleting an existing object created earlier
       | 1     |
       | 2     |
       | 3     |
+      | 4     |

@@ -20,7 +20,8 @@ public class DeleteObject extends CustomListener {
 
     @When("the user sends a {string} request to the server {int}")
     public void theUserSendsARequestToTheServer(String httpMethodType, int idx) {
-        endPoint = getGetObjectEndpoint() + "/" + ids.get(idx);
+        this.index=idx;
+        endPoint = getGetObjectEndpoint() + "/" + ids.get(index);
         actualResponse = requestSpecification.log().all().request(httpMethodType.toUpperCase(), endPoint);
     }
 

@@ -51,28 +51,34 @@ Our comprehensive framework covers a wide range of test scenarios for the NatWes
 
 Follow these steps to set up and run the automated tests:
 
-1. **Navigate to the Project's Root Directory:**
+1. Clone the repository to your local machine:
+
+   ```bash
+   git clone https://github.com/KritikaAggarwal15/automation_framework_natwest.git
+   ````
+   
+2. **Navigate to the Project's Root Directory:**
 
    ```bash
    cd automation_framework_natwest
    ````
 
-2. **Build the Project Using Maven:**
+3. **Build the Project Using Maven:**
 
    ```bash
    mvn clean install
    ````
    
-3. **Run All Tests:**
+4. **Run All Tests:**
    ```bash
    mvn test
    ````
 
-4. **Run Tests for a Specific Environment:**
+5. **Run Tests for a Specific Environment:**
    ```bash
    mvn test -Denv=<file.properties>
    ````
-5. **Access Test Reports:**
+6. **Access Test Reports:**
 
    After completing the tests, detailed Serenity test reports can be found in the test/resources/spark/index.html file.
 
