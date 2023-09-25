@@ -2,7 +2,6 @@
 **/.project
 **/target
 **/test-output
-**/spark
 **/logger
 **/testLogs
 **/testReports
