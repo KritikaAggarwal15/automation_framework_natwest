@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="API Automation Suite" verbose="1">
+    <!-- Define listeners for custom reporting or other purposes -->
+    <listeners>
+        <listener class-name="com.natWest.webService.customListeners.CustomListener"/>
+    </listeners>
+
+    <test name="API Automation Test Scenarios">
+        <classes>
+            <!-- Specify the class or classes containing your test methods -->
+            <class name="testRunners.TestRunner"/>
+        </classes>
+    </test>
+</suite>

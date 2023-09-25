@@ -1,0 +1,27 @@
+**/*.class
+**/.project
+**/target
+**/test-output
+**/spark
+**/logger
+**/testLogs
+**/testReports
+**/archivedTestReport
+**/testLogs
+**/.settings
+**/.iml
+**/.classpath
+**/.metadata
+**/*.iml
+.idea/
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### Ignore Manifest Files ###
+**/META-INF/MANIFEST.MF
+
+.DS_Store
